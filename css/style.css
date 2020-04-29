@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(97, 22, 22) url(../img/romanes2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: -10px;
+    background-position-x: center ;
+}
+br {
+    padding: 5px;
+}
+.container {
+    border-color: springgreen;
+    border-style: double;
+    max-width: 1140px;
+    margin: auto;
+}
+.header {
+    border: white 1px solid;
+    padding-bottom: 65%;
+}
+.headtext {
+    border-color: rgb(38, 0, 255);
+    border-style: double;
+
+    text-align: center;
+    max-width: 600px;
+    color: rgb(255, 252, 60);
+    margin: auto;
+    
+}
+.main {
+    margin: auto;
+    padding: 30px;
+    background: rgba(196, 196, 196, 0.8);
+    max-width: 80%;
+    border-radius: 7px;
+
+}
+.parts {
+    padding: 0px 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    font-weight: bold
+}
+.part {
+    margin: 7px;
+}
